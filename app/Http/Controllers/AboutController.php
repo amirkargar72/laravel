@@ -10,4 +10,12 @@ class AboutController extends Controller
      {
      return view('about');
     }
+    public function show()  
+     {
+     return view('about');
+    }
+    public function create()  
+     {
+     return view('about');
+    }
 }
